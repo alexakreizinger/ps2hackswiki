@@ -9,11 +9,17 @@ theme:
     - navigation.sections
     - navigation.indexes
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 nav:
   - Home:
     - index.md
   - Hardware:
     - hardware/index.md
+    - Burn discs with ESR: hardware/burn-discs-esr.md
     - Controller adapters: hardware/controller-adapters.md
   - Software:
     - software/index.md
