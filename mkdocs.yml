@@ -1,4 +1,5 @@
 site_name: PS2 Hacks Wiki
 site_url: https://ps2hackswiki.netlify.app
+docs_dir: docs/
 theme:
-  name: material
+  name: 'material'
