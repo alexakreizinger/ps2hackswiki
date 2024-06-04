@@ -1,6 +1,3 @@
----
-title: Home
----
-# PS2 Hacks Wiki
+# Controller adapters
 
 ![under construction](/assets/construction.gif)
