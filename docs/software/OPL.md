@@ -1,6 +1,3 @@
----
-title: Home
----
-# PS2 Hacks Wiki
+# OPL
 
 ![under construction](/assets/construction.gif)

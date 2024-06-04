@@ -1,5 +1,14 @@
-site_name: PS2 Hacks Wiki
+site_name: PS2 Homebrew Wiki
 site_url: https://ps2hackswiki.netlify.app
 docs_dir: docs/
 theme:
   name: 'material'
+  features:
+    - navigation.sections
+
+nav:
+  - Home: index.md
+  - Hardware:
+    - Controller adapters: hardware/controller-adapters.md
+  - Software:
+    - OPL: software/OPL.md
