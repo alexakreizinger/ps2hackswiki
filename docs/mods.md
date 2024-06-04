@@ -1,6 +1,3 @@
----
-title: Home
----
-# PS2 Hacks Wiki
+# Mods
 
 ![under construction](./assets/construction.gif)
