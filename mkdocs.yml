@@ -5,10 +5,14 @@ theme:
   name: 'material'
   features:
     - navigation.sections
+    - navigation.indexes
 
 nav:
-  - Home: index.md
+  - Home:
+    - index.md
   - Hardware:
+    - hardware/index.md
     - Controller adapters: hardware/controller-adapters.md
   - Software:
+    - software/index.md
     - OPL: software/OPL.md
