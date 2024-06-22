@@ -55,7 +55,7 @@
 
 !!! note "Test compatibility"
 
-This method is faster and more direct but opening PS2 HDD partitions does not work on all computers. Additionally, even if a hard drive can be mounted, some files may encounter errors with copying and require using the USB thumb drive method.
+    This method is faster and more direct but opening PS2 HDD partitions does not work on all computers. Additionally, even if a hard drive can be mounted, some files may encounter errors with copying and require using the USB thumb drive method.
 
 1. Open **HDL Batch Installer**.
 
@@ -70,7 +70,7 @@ This method is faster and more direct but opening PS2 HDD partitions does not wo
 1. Click the `Mount hdd Partition` option.
 
     1. You may be prompted to install Dokan if it is not installed already. Click the prompt to go to the website to download the installer.
-    
+
     1. When done installing Dokan, restart HDL Batch Installer before continuing.
 
     ![artwork_12](../assets/artwork_12.png)
@@ -95,9 +95,9 @@ This method is faster and more direct but opening PS2 HDD partitions does not wo
 
 1. When finished, click the `Unmount` button to unmount the drive.
 
-!!! warn "ALWAYS unmount the drive when finished!"
+!!! warning "ALWAYS unmount the drive when finished!"
 
-This will prevent the drive from being corrupted.
+    This will prevent the drive from being corrupted.
 
 # Option 2: Transfer artwork to HDD using USB
 
