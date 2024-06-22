@@ -4,11 +4,11 @@ Before being used in a compatible PS2, a hard drive must be formatted. Partition
 
 !!! warning "Flashing pre-made images to hard drive"
 
-An alternative to using uLaunchELF to format the drive is to flash a pre-made RAW image typically to install FreeHDBoot or packaged programs using HDD Raw Copy Tool. These disc images are created from drives that may have differing disk geometry from the one you are using, so it is recommended to instead use uLaunchELF on your PS2 format it and create needed partitions.
+    An alternative to using uLaunchELF to format the drive is to flash a pre-made RAW image typically to install FreeHDBoot or packaged programs using HDD Raw Copy Tool. These disc images are created from drives that may have differing disk geometry from the one you are using, so it is recommended to instead use uLaunchELF on your PS2 format it and create needed partitions.
 
 !!! warning "Formatting and repairing with WinHIIP"
 
-Another alternative to formatting the drive with uLaunchELF is to use WinHIIP. WinHIIP is no longer recommended because it is obsolete, has remaining bugs, and struggles to format drives as large as 2TB.
+    Another alternative to formatting the drive with uLaunchELF is to use WinHIIP. WinHIIP is no longer recommended because it is obsolete, has remaining bugs, and struggles to format drives as large as 2TB.
 
 ## Credits
 
@@ -40,7 +40,7 @@ Another alternative to formatting the drive with uLaunchELF is to use WinHIIP. W
 
     ![drive_partition_3](../assets/drive_partition_3.png)
 
-8. The PS2 HDD Manager screen should show the HDD as connected but not formatted. Press R1 to access the menu. 
+8. The PS2 HDD Manager screen should show the HDD as connected but not formatted. Press R1 to access the menu.
 
     ![drive_partition_4](../assets/drive_partition_4.png)
 
@@ -68,7 +68,7 @@ Another alternative to formatting the drive with uLaunchELF is to use WinHIIP. W
 
     !!! warning "+OPL partition size"
 
-    While the HddManager has the option to expand existing partitions, this has the potential to corrupt the partition. In case the +OPL partition needs to be expanded later, [a batch tool workaround exists](https://www.psx-place.com/threads/wlaunchelf-hddmanager-partition-expanding-test.35704/#post-315273). 
+        While the HddManager has the option to expand existing partitions, this has the potential to corrupt the partition. In case the +OPL partition needs to be expanded later, [a batch tool workaround exists](https://www.psx-place.com/threads/wlaunchelf-hddmanager-partition-expanding-test.35704/#post-315273).
 
     ![drive_partition_10](../assets/drive_partition_10.png)
 

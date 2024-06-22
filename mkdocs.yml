@@ -1,16 +1,28 @@
-site_name: PS2 Homebrew Wiki
+site_name: PS2 Hacks Wiki
 site_url: https://ps2hackswiki.netlify.app
 docs_dir: docs/
 theme:
   name: 'material'
+  logo: assets/controller.png
+  favicon: assets/controller.png
   features:
     - navigation.sections
+    - navigation.indexes
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 nav:
-  - Home: index.md
+  - Home:
+    - index.md
   - Hardware:
+    - hardware/index.md
+    - Burn discs with ESR: hardware/burn-discs-esr.md
     - Controller adapters: hardware/controller-adapters.md
   - Software:
+    - software/index.md
     - Create drive partitions: software/create-drive-partitions.md
     - HDL Batch Installer: software/hdl-batch-installer.md
     - Install FreeHDBoot: software/install-freehdboot.md
