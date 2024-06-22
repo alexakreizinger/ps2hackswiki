@@ -12,9 +12,7 @@ Another alternative to formatting the drive with uLaunchELF is to use WinHIIP. W
 
 ## Credits
 
-- This guide follows [
-Blaine Locklair
-'s YouTube tutorial](https://www.youtube.com/watch?v=C02j3wTuJag)
+- This guide follows [Blaine Locklair's YouTube tutorial](https://www.youtube.com/watch?v=C02j3wTuJag)
 
 ## Requirements
 
