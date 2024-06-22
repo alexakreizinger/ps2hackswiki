@@ -29,7 +29,7 @@ Blaine Locklair
 
     !!! warning "The hard drive must be formatted"
 
-        If the hard drive has not been formatted yet, follow the [formatting tutorial here](create-drive-partitions.html).
+        If the hard drive has not been formatted yet, follow the [formatting tutorial here](create-drive-partitions.md).
 
 2. Boot up the PS2 and select `uLaunchELF`.
 
