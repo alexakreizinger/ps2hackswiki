@@ -1,5 +1,7 @@
 # Install game backups to hard drive using HDL Batch Installer
 
+Game backups can be loaded directly onto the hard drive from a PC using HDL Batch Installer.
+
 ## Requirements
 
 * Internal hard drive
