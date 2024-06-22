@@ -51,7 +51,7 @@
 
 !!! note "Test compatibility"
 
-    This method is faster and more direct but opening PS2 HDD partitions does not work on all computers.
+This method is faster and more direct but opening PS2 HDD partitions does not work on all computers.
 
 1. Open **HDL Batch Installer**.
 2. Click `Search ps2 HDD's` at the top to automatically find the PS2 drive or use the dropdown at the top to select it.
@@ -92,7 +92,7 @@
 
 !!! warn "ALWAYS unmount the drive when finished!"
 
-    This will prevent the drive from being corrupted.
+This will prevent the drive from being corrupted.
 
 # Option 2: Transfer artwork to HDD using USB
 
