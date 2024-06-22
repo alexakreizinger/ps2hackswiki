@@ -20,6 +20,10 @@
 
     ![artwork_6](../assets/opl_003.png)
 
+1. If not first startup, ensure that any additional games are added to the cache by TODO
+
+    ![artwork_6](../assets/opl_003.png)
+
 1. Ensure the hard drive is properly connected, then hit `OK`.
 
     ![artwork_6](../assets/opl_004.png)
@@ -51,9 +55,10 @@
 
 !!! note "Test compatibility"
 
-This method is faster and more direct but opening PS2 HDD partitions does not work on all computers.
+This method is faster and more direct but opening PS2 HDD partitions does not work on all computers. Additionally, even if a hard drive can be mounted, some files may encounter errors with copying and require using the USB thumb drive method.
 
 1. Open **HDL Batch Installer**.
+
 2. Click `Search ps2 HDD's` at the top to automatically find the PS2 drive or use the dropdown at the top to select it.
 
     ![artwork_10](../assets/artwork_10.png)
@@ -99,9 +104,8 @@ This will prevent the drive from being corrupted.
 If your PC is unable to mount the OPL partition, artwork can be loaded using a USB drive.
 
 ## Credits
-* This guide transcribes [
-Blaine Locklair
-'s YouTube tutorial](https://www.youtube.com/watch?v=C02j3wTuJag)
+* This guide follows [
+Blaine Locklair's YouTube tutorial](https://www.youtube.com/watch?v=C02j3wTuJag)
 
 ## Requirements
 
@@ -124,11 +128,11 @@ Blaine Locklair
 
     ![artwork_19](../assets/artwork_19.png)
 
-1. Tap one down to `ART/` then click R1 to open the `Menu`.
+1. Scroll or dive into your USB drive to highlight the `ART/` directory then click R1 to open the `Menu`.
 
     ![artwork_20](../assets/artwork_20.png)
 
-1. Press circle to select `Copy`.
+1. Press circle to select `Copy`. The upper left status text will change to say `Copied to the Clipboard`.
 
     ![artwork_21](../assets/artwork_21.png)
 
