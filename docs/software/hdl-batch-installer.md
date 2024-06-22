@@ -1,11 +1,15 @@
 # Install game backups to hard drive using HDL Batch Installer
 
-Game backups can be loaded directly onto the hard drive from a PC using HDL Batch Installer.
+This guide will walk through loading game backups directly onto the hard drive from a PC using HDL Batch Installer.
 
 ## Requirements
 
-* Internal hard drive
+* Internal hard drive formatted for PS2
 * [HDL Batch Installer](https://www.psx-place.com/resources/hdl-batch-installer.1173/)
+
+!!! warning "Hard drive format"
+
+    Your hard drive MUST be formatted properly for PS2 usage before following these steps. If you have not formatted your drive yet, follow [this guide](../create-drive-partitions/) first.
 
 ## Instructions
 
@@ -15,16 +19,28 @@ Game backups can be loaded directly onto the hard drive from a PC using HDL Batc
 
 1. Click `search ps2 HDD's` at the top of the program. It will automatically populate with a connected PS2 hard drive.
 
-    ![batch_installer_2](../assets/batch_installer_2.png)
+    <figure markdown="span">
+      ![batch_installer_2](../assets/batch_installer_2.png){ width="400" }
+    </figure>
 
 1. Click the `Search Games` button on the right.
 
-    ![batch_installer_3](../assets/batch_installer_3.png)
+    <figure markdown="span">
+      ![batch_installer_3](../assets/batch_installer_3.png){ width="400" }
+    </figure>
 
-1. In the file dialog, select the games to add and press `Open`. If successful, the games will appear in a list under `Game`.
+1. In the file dialog, select the games to add and press `Open`. If successful, the games will be properly staged in a list under `Game`.
 
-    ![batch_installer_6](../assets/batch_installer_6.png)
+    <figure markdown="span">
+      ![batch_installer_6](../assets/batch_installer_6.png){ width="400" }
+    </figure>
 
-1. Now that the games are staged, click `Install`. A popup will show the progress and it will disappear when done.
+1. Click `Install`. A popup will show the progress and it will disappear when done.
 
-    ![batch_installer_7](../assets/batch_installer_7.png)
+    <figure markdown="span">
+      ![batch_installer_7](../assets/batch_installer_7.png){ width="400" }
+    </figure>
+
+Now that the games have been installed, the hard drive is ready to be inserted back into the PS2 and loaded in OPL. However, note that games will not display artwork by default in OPL. 
+
+[**Next (Optional): Add artwork to OPL**](../add-artwork-to-opl/)
