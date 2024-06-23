@@ -1,10 +1,12 @@
 # Software
 
-## OPL (Open Playstation Loader)
-
-Notes: This may already be installed on the FMCB memory card, so only download if not previously loaded or updated.
+## OPL (Open PS2 Loader)
 
 - [OPL release v1.1.0](https://github.com/ps2homebrew/Open-PS2-Loader/releases/tag/v1.1.0)
+
+!!! note "Note"
+
+    This may already be installed on a FMCB memory card, so only download if not previously loaded or updated.
 
 ## OPL File Managers
 

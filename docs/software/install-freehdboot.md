@@ -20,10 +20,10 @@ Blaine Locklair
 
 ## Instructions
 
-1. Download the [FreeMcBoot installer](https://israpps.github.io/FreeMcBoot-Installer/test/8_Downloads.html) by clicking ver 1.966.
-2. Plug USB thumb drive into PC.
-3. If the thumb drive is not formatted to FAT32, use **GUIFormat** to format it.
-4. Copy the unzipped installer folder onto the thumb drive.
+1. Download the [FreeMcBoot installer](https://israpps.github.io/FreeMcBoot-Installer/test/8_Downloads.html) by clicking the latest version.
+1. Plug USB thumb drive into PC.
+1. If the thumb drive is not formatted to FAT32, use **GUIFormat** to format it.
+1. Copy the unzipped installer folder onto the thumb drive.
 
     <figure markdown="span">
       ![freehdboot_0](../assets/freehdboot_0.png){ width="500" }

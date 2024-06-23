@@ -66,7 +66,13 @@ Games will not display artwork by default in OPL. This guide will walk through d
 
 # Add artwork to HDD
 
-# Option 1: Directly to HDD
+## Option 1: Directly to HDD
+
+Artwork can be loaded directly onto the HDD
+
+!!! note "Test compatibility"
+
+    This method is faster and more direct but opening PS2 HDD partitions does not work on all computers. Additionally, even if a hard drive can be mounted, some files may encounter errors with copying and require using the USB thumb drive method.
 
 ## Requirements
 
@@ -74,10 +80,6 @@ Games will not display artwork by default in OPL. This guide will walk through d
 * HDL Batch Installer
 
 ## Instructions
-
-!!! note "Test compatibility"
-
-    This method is faster and more direct but opening PS2 HDD partitions does not work on all computers. Additionally, even if a hard drive can be mounted, some files may encounter errors with copying and require using the USB thumb drive method.
 
 1. Open **HDL Batch Installer**.
 
@@ -138,7 +140,7 @@ Games will not display artwork by default in OPL. This guide will walk through d
 
     This will prevent the drive from being corrupted.
 
-# Option 2: Transfer artwork to HDD using USB
+## Option 2: Transfer artwork to HDD using USB
 
 If your PC is unable to mount the OPL partition, artwork can be loaded using a USB drive.
 
@@ -213,3 +215,5 @@ If your PC is unable to mount the OPL partition, artwork can be loaded using a U
 !!! tip "Tip: Copying themes"
 
     "Repeat these last few steps to copy any themes to the OPL directory by pasting over the `THM/` folder."
+
+You are ready to play game backups complete with game artwork or themes for OPL.

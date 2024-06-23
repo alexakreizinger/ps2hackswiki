@@ -1,6 +1,6 @@
 # Format and create partitions on hard drive
 
-This guide will cover how to format and partition a hard drive for usage as an internal drive in a PS2. Both of these steps can be done directly on the PS2 using uLaunchELF/wLaunchELF (loaded from a FreeMcBoot card) to run `HddManager`.
+This guide will cover how to format and partition a hard drive for usage as an internal drive in a PS2. Both of these steps can be done directly on the PS2 using uLaunchELF/wLaunchELF loaded from a FreeMcBoot card.
 
 !!! warning "Flashing pre-made images to hard drive"
 
@@ -8,7 +8,7 @@ This guide will cover how to format and partition a hard drive for usage as an i
 
 !!! warning "Formatting with WinHIIP"
 
-    Another alternative to formatting the drive with uLaunchELF is to use WinHIIP. WinHIIP is no longer recommended because it is obsolete, has remaining bugs, and struggles to format drives as large as 2TB.
+    Another alternative to formatting the drive with uLaunchELF is to use WinHIIP. WinHIIP is no longer recommended because it is obsolete, struggles to format drives as large as 2TB, and has bugs that may corrupt drives.
 
 ## Credits
 
@@ -20,6 +20,8 @@ This guide will cover how to format and partition a hard drive for usage as an i
 * FMCB memory card
 
 ## Instructions
+
+### Format hard drive
 
 1. Attach the hard drive to the SATA or IDE connection on the network adapter and plug into the PS2.
 1. Plug the FMCB card into the memory card slot.
@@ -65,6 +67,8 @@ This guide will cover how to format and partition a hard drive for usage as an i
     <figure markdown="span">
       ![drive_partition_6](../assets/drive_partition_6.png){ width="500" }
     </figure>
+
+### Create OPL data partition
 
 1. Once the format is completed, the partition status of the drive will be displayed. In these next steps, we will create a partition specifically for OPL data such as artwork and themes. Press R1 to access the `MENU`.
 
@@ -114,8 +118,14 @@ This guide will cover how to format and partition a hard drive for usage as an i
 
 Once the hard drive has been formatted, game backups can be installed onto it and played through OPL.
 
+Before moving to the next guide, ensure that OPL is installed on your FMCB card. Many pre-made FMCB cards will have apps such as OPL already loaded. However, if OPL isn't installed (or found to be outdated), follow the below optional guide to install or update it first.
+
+[**Next (ONLY if not installed): Install OPL onto FMCB card**](../OPL/) 
+
+If OPL is installed, continue below.
+
 !!! tip "Tip: Generate default OPL folders"
 
     Before removing the hard drive from the PS2, launch OPL to generate the appropriate subdirectories. This can set up folders ahead of time if you plan to load game artwork or OPL themes directly from PC.
 
-[**Next: Install game backups to hard drive**](../hdl-batch-installer/) 
+[**Next: Install game backups to hard drive**](../hdl-batch-installer/)

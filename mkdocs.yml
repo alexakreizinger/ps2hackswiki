@@ -25,8 +25,9 @@ nav:
     - Controller adapters: hardware/controller-adapters.md
   - Software:
     - software/index.md
+    - Internal HDD guide: software/internal-hdd-guide.md
     - Create drive partitions: software/create-drive-partitions.md
+    - Install OPL: software/OPL.md
     - HDL Batch Installer: software/hdl-batch-installer.md
-    - Install FreeHDBoot: software/install-freehdboot.md
-    - OPL: software/OPL.md
     - Add artwork to OPL: software/add-artwork-to-opl.md
+    - Install FreeHDBoot: software/install-freehdboot.md
