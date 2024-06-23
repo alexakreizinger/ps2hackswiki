@@ -12,7 +12,7 @@ There are multiple methods of storing and loading game backups on PS2, but an in
 
 This guide will cover how to format and partition a hard drive with a FreeMcBoot card, install game backups to the drive directly from PC, install a homebrew app (such as OPL if it is not already installed), and download game artwork to display in OPL.
 
-Optionally, it is also possible to install the software exploit directly onto the hard drive (albeit with slightly slower boot time) to always boot into it without a memroy card if desired. This exploit is called FreeHDBoot and should only be done after formatting the hard drive.
+Optionally, it is also possible to install the software exploit directly onto the hard drive (albeit with slightly slower boot time) to always boot into it without a memory card if desired. This exploit is called FreeHDBoot and should only be done after formatting the hard drive.
 
 ## Credits
 
@@ -50,7 +50,7 @@ This guide was written with a few key sources and guides either strictly followe
 
 ## Getting Started
 
-This guide will not cover how to upgrade an official Sony PS2 internet adapter with a SATA connector kit, but if you are planning to use a SATA hard drive it will be the single hardware modification required before starting this guide. Most kits will come with picture instructions for how to install the mod.
+If you are planning to use a SATA hard drive it will be the single hardware modification required before starting this guide. The console mods wiki provides a [thorough text guide with diagrams here](https://consolemods.org/wiki/PS2:SATA_Board_for_LAN_Adapter), but in addition most kits will come with picture instructions for how to install the mod.
 
 Once installed, you can begin the guide.
 
