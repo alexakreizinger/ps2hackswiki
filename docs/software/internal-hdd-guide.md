@@ -4,7 +4,7 @@ There are multiple methods of storing and loading game backups on PS2, but an in
 
 !!! note "Software modification"
 
-    Using a FreeMcBoot (FMCB) memory card as an exploit is safe, easy, and requires no permanent modifications. When a PS2 turns on with a FMCB memory card inserted, it will automatically use the exploit and allow running homebrew including OPL (which can play game backups) without any further software modification. Removing the memory card before booting will revert it to stock.
+    Using a FreeMcBoot (FMCB) memory card as an exploit is safe, easy, and requires no permanent modifications. When a PS2 turns on with a FMCB memory card inserted, it will automatically use the exploit and allow running homebrew apps including OPL (which can play game backups) without any further software modification. Removing the memory card before booting will revert it to stock.
 
 !!! warning "Hardware modification"
 

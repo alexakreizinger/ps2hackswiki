@@ -41,6 +41,6 @@ This guide will walk through loading game backups directly onto the hard drive f
       ![batch_installer_7](../assets/batch_installer_7.png){ width="400" }
     </figure>
 
-Now that the games have been installed, the hard drive is ready to be inserted back into the PS2 and loaded in OPL. However, note that games will not display artwork by default in OPL. 
+Now that the games have been installed, the hard drive can be inserted back into the PS2 and loaded in OPL. However, note that games will not display artwork by default in OPL. If you would like to add artwork for the game menu displays in OPL, follow the next guide.
 
 [**Next (Optional): Add artwork to OPL**](../add-artwork-to-opl/)

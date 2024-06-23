@@ -62,7 +62,7 @@ This guide will cover how to format and partition a hard drive for usage as an i
       ![drive_partition_5](../assets/drive_partition_5.png){ width="500" }
     </figure>
 
-1. Press circle to select `OK` on the popup.
+1. Press circle to select `OK` on the popup. Once the format is completed, the partition status of the drive will be displayed.
 
     <figure markdown="span">
       ![drive_partition_6](../assets/drive_partition_6.png){ width="500" }
@@ -70,7 +70,7 @@ This guide will cover how to format and partition a hard drive for usage as an i
 
 ### Create OPL data partition
 
-1. Once the format is completed, the partition status of the drive will be displayed. In these next steps, we will create a partition specifically for OPL data such as artwork and themes. Press R1 to access the `MENU`.
+1. In these next steps, we will create a partition specifically for OPL data such as artwork and themes. Press R1 to access the `MENU`.
 
     <figure markdown="span">
       ![drive_partition_7](../assets/drive_partition_7.png){ width="500" }

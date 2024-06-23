@@ -8,7 +8,7 @@ Instead of loading FreeMcBoot from a memory card, it is possible to load it dire
 
 ## Credits
 
-- This guide transcribes [
+- This guide transcribes and takes screenshots from [
 Blaine Locklair
 's YouTube tutorial](https://www.youtube.com/watch?v=C02j3wTuJag)
 

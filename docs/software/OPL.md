@@ -33,9 +33,11 @@ OPL is typically already installed on a pre-made FMCB memory card. However, if i
       ![install_opl_002](../assets/install_opl_002.png){ width="400" }
     </figure>
 
-1. Eject the USB thumb drive from your PC and connect it to your PS2 along with your FMCB memory card. Boot up the PS2.
+1. Eject the USB thumb drive from your PC.
 
 ### Copy the OPL elf onto FMCB card
+
+1. Insert both your the USB thumb drive with the OPL elf and FMCB memory card into the PS2 and boot it up.
 
 1. From the home screen launch `uLaunchELF`.
 

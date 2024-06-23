@@ -2,23 +2,23 @@
 
 Games will not display artwork by default in OPL. This guide will walk through downloading artwork using OPL Manager and then loading it onto an internal hard drive by mounting it to your PC with HDL Batch Installer or transferring it using a USB drive.
 
-# Download artwork using OPL Manager
+## Download artwork using OPL Manager
 
-## Requirements
+### Requirements
 
-* A windows PC
+* A Windows PC
 * OPL Manager
 * PS2-formatted hard drive with game backups
 
 !!! note "Note: Game list"
 
-    In order for OPL Manager to properly load the game list, game backups must already be installed onto your PS2 hard drive. If not, the tool will typically require correcting titles individually before loading them. If you have not yet loaded game backups onto your hard drive, follow [this guide](../hdl-batch-installer/) first.
+    In order for OPL Manager to properly load the game list, game backups must already be installed onto your PS2 hard drive. If pointed to games that have not been installed, the tool will typically require correcting titles individually before loading them. If you have not yet loaded game backups onto your hard drive, follow [this guide](../hdl-batch-installer/) first.
 
-## Instructions
+### Instructions
 
 1. Connect PS2 HDD to PC.
 1. Right click on **OPL Manager** and select `Run as administrator`.
-1. Select the PS2 HDD option and point to the HDD.
+1. When prompted to set mode, select the `Local PS2 HDD` option.
 
     <figure markdown="span">
       ![opl_002](../assets/opl_002.png){ width="400" }
@@ -64,22 +64,22 @@ Games will not display artwork by default in OPL. This guide will walk through d
       ![opl_008](../assets/opl_008.png){ width="500" }
     </figure>
 
-# Add artwork to HDD
+## Add artwork to HDD
 
 ## Option 1: Directly to HDD
 
-Artwork can be loaded directly onto the HDD
+Artwork can be loaded directly onto the HDD by mounting the OPL partition with HDL Batch Installer.
 
-!!! note "Test compatibility"
+!!! note "Compatibility varies"
 
     This method is faster and more direct but opening PS2 HDD partitions does not work on all computers. Additionally, even if a hard drive can be mounted, some files may encounter errors with copying and require using the USB thumb drive method.
 
-## Requirements
+### Requirements
 
-* A Windows PC (see below note)
+* A Windows PC
 * HDL Batch Installer
 
-## Instructions
+### Instructions
 
 1. Open **HDL Batch Installer**.
 
@@ -144,11 +144,11 @@ Artwork can be loaded directly onto the HDD
 
 If your PC is unable to mount the OPL partition, artwork can be loaded using a USB drive.
 
-## Requirements
+### Requirements
 
 * USB thumb drive formatted to FAT32
 
-## Instructions
+### Instructions
 
 1. Copy the `ART/` folder to the FAT32 USB drive.
 
@@ -217,3 +217,7 @@ If your PC is unable to mount the OPL partition, artwork can be loaded using a U
     "Repeat these last few steps to copy any themes to the OPL directory by pasting over the `THM/` folder."
 
 You are ready to play game backups complete with game artwork or themes for OPL.
+
+This is the end of the main sections of the guide. However, if you would like to load FreeMcBoot without a memory card, it is possible to load it directly from the hard drive by installing FreeHDBoot instead. This method has a slightly slower boot time but may be preferable if you always want to run the exploit (without the ability to revert to stock) or both memory card slots are needed.
+
+[**OPTIONAL guide: Install FreeHDBoot onto hard drive**](../install-freehdboot/) 
