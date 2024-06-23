@@ -38,7 +38,7 @@ This guide was written with a few key sources and guides either strictly followe
 
 !!! note "FreeMcBoot card"
 
-    While it is possible to avoid buying or using FMCB card by flashing a FreeHDBoot image to a hard drive, this is not the recommended way to format or partition a drive. Cards are fairly cheap and easy to find online and will enable proper formatting of the drive on the PS2.
+    While it is possible to avoid buying or using FreeMcBoot (FMCB) card by flashing a FreeHDBoot image to a hard drive, this is not the recommended way to format or partition a drive. Cards are fairly cheap and easy to find online and will enable proper formatting of the drive on the PS2.
 
 !!! warning "Gamestar network adapter"
 
