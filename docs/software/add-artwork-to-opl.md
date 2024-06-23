@@ -218,6 +218,6 @@ If your PC is unable to mount the OPL partition, artwork can be loaded using a U
 
 You are ready to play game backups complete with game artwork or themes for OPL.
 
-This is the end of the main sections of the guide. However, if you would like to load FreeMcBoot without a memory card, it is possible to load it directly from the hard drive by installing FreeHDBoot instead. This method has a slightly slower boot time but may be preferable if you always want to run the exploit (without the ability to revert to stock) or both memory card slots are needed.
+This is the end of the main sections of the internal HDD guide. However, if you would like to load FreeMcBoot without a memory card, it is possible to load it directly from the hard drive by installing FreeHDBoot instead. This method has a slightly slower boot time but may be preferable if you always want to run the exploit (without the ability to revert to stock) or both memory card slots are needed.
 
 [**OPTIONAL guide: Install FreeHDBoot onto hard drive**](../install-freehdboot/) 
