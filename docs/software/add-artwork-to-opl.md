@@ -128,6 +128,10 @@ Games will not display artwork by default in OPL. This guide will walk through d
 
 1. Copy artwork from the OPL Manager art folder located at `OPL_Manager/hdl_hdd/ART` to the +OPL partition `ART/` folder on the hard drive.
 
+    !!! tip "Tip: OPL themes"
+    
+        Along with game artwork, OPL themes can also be loaded directly to the hard drive using this method. Copy theme folders (which use the naming prefix `thm_`) to the `THM/` directory.
+
 1. When finished, click the `Unmount` button to unmount the drive.
 
 !!! warning "ALWAYS unmount the drive when finished!"
@@ -138,10 +142,6 @@ Games will not display artwork by default in OPL. This guide will walk through d
 
 If your PC is unable to mount the OPL partition, artwork can be loaded using a USB drive.
 
-## Credits
-* This guide follows [
-Blaine Locklair's YouTube tutorial](https://www.youtube.com/watch?v=C02j3wTuJag)
-
 ## Requirements
 
 * USB thumb drive formatted to FAT32
@@ -150,8 +150,11 @@ Blaine Locklair's YouTube tutorial](https://www.youtube.com/watch?v=C02j3wTuJag)
 
 1. Copy the `ART/` folder to the FAT32 USB drive.
 
+    1. In addition, themes can be loaded and copied by copying `THM/` to the drive as well.
+
 1. Plug both USB and hard drive into PS2.
-2. Select `uLaunchELF`.
+
+1. Select `uLaunchELF`.
 
     <figure markdown="span">
       ![artwork_17](../assets/artwork_17.png){ width="500" }
@@ -206,3 +209,7 @@ Blaine Locklair's YouTube tutorial](https://www.youtube.com/watch?v=C02j3wTuJag)
     </figure>
 
 1. Once finished, open OPL to confirm the images have been loaded correctly.
+
+!!! tip "Tip: Copying themes"
+
+    "Repeat these last few steps to copy any themes to the OPL directory by pasting over the `THM/` folder."

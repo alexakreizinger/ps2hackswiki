@@ -66,25 +66,27 @@ This guide will cover how to format and partition a hard drive for usage as an i
       ![drive_partition_6](../assets/drive_partition_6.png){ width="500" }
     </figure>
 
-1. Once the format is completed, the partition status of the drive will be displayed. In this next step, we will create a partition specifically for OPL data such as artwork and themes. Press R1 to access the `MENU`.
+1. Once the format is completed, the partition status of the drive will be displayed. In these next steps, we will create a partition specifically for OPL data such as artwork and themes. Press R1 to access the `MENU`.
 
     <figure markdown="span">
       ![drive_partition_7](../assets/drive_partition_7.png){ width="500" }
     </figure>
 
-12. Press circle to select the `Create` option.
+1. Press circle to select the `Create` option.
 
     <figure markdown="span">
       ![drive_partition_8](../assets/drive_partition_8.png){ width="500" }
     </figure>
 
-13. Set the name of this partition to `+OPL` then select `OK` .
+1. Set the name of this partition to `+OPL` then select `OK` .
 
     <figure markdown="span">
       ![drive_partition_9](../assets/drive_partition_9.png){ width="500" }
     </figure>
 
-14. Set the partition size for the OPL app data.
+1. Set the partition size for the OPL app data.
+
+    1. The recommended partition size depends on the amount of data needed to store OPL-related data such as game artwork, VMCs, and themes. Estimates for standard values range from 512MB to 2048MB, or even 4096MB+ for users planning to load a lot of artwork.
 
     !!! warning "Expanding the +OPL partition size"
 
@@ -94,13 +96,13 @@ This guide will cover how to format and partition a hard drive for usage as an i
       ![drive_partition_10](../assets/drive_partition_10.png){ width="500" }
     </figure>
 
-15. Press circle to select `OK`.
+1. Press circle to select `OK`.
 
     <figure markdown="span">
       ![drive_partition_11](../assets/drive_partition_11.png){ width="500" }
     </figure>
 
-16. Once finished, it will show the created partition. Press triangle to `Exit`.
+1. Once finished, it will show the created partition. Press triangle to `Exit`.
 
     <figure markdown="span">
       ![drive_partition_12](../assets/drive_partition_12.png){ width="500" }
@@ -112,8 +114,8 @@ This guide will cover how to format and partition a hard drive for usage as an i
 
 Once the hard drive has been formatted, game backups can be installed onto it and played through OPL.
 
-!!! tip "Tip: Create OPL folders"
+!!! tip "Tip: Generate default OPL folders"
 
-    Before removing the hard drive from the PS2, launch OPL to generate the appropriate subdirectories. This can save time if you plan to load game artwork or OPL themes later.
+    Before removing the hard drive from the PS2, launch OPL to generate the appropriate subdirectories. This can set up folders ahead of time if you plan to load game artwork or OPL themes directly from PC.
 
 [**Next: Install game backups to hard drive**](../hdl-batch-installer/) 
