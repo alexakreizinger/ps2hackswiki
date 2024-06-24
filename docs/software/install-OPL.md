@@ -6,6 +6,10 @@ OPL is typically already installed on a pre-made FMCB memory card. However, if i
 
     These steps can also be used to update OPL. If your OPL elf files have the same name, you can simply overwrite the existing OPL elf. However, if your new OPL elf has a different file name (because of versioning), you can choose to install it in addition to the previous one or delete the other OPL elf after installing the new one.
 
+!!! tip "Tip: Installing apps"
+
+    These instructions can also be used to install other homebrew apps as well. You can find other apps to install on [PSX Place](https://www.psx-place.com/resources/categories/playstation-2-ps2.7/) or [Internet Archive](https://archive.org/details/ps2-homebrew-library).
+
 ## Credits
 
 - This guide transcribes [How To Install OPL v0.9.4 Onto Any PS2! (Open PS2 Loader) 2018!](https://www.youtube.com/watch?v=16LZNZ442ew)

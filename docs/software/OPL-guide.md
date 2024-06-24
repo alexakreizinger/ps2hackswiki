@@ -10,7 +10,59 @@ OPL documentation across the web is very thorough, so this guide will mainly com
 
 ### Recommended settings
 
-Consult the [PS2-Home: OPL Recommended Settings](https://www.ps2-home.com/forum/app.php/page/opl_recommended_settings) / [Web archive mirror](http://web.archive.org/web/20230521200731/https://www.ps2-home.com/forum/app.php/page/opl_recommended_settings) thread for a thorough explanation of all of the OPL settings and recommendations.
+These instructions will not go into great detail about each setting, but just provide a quickstart overview. Further info can be found in the documentation linked below.
+
+To access the settings menu from OPL, hit the `Start` button.
+
+<figure markdown="span">
+    ![opl_settings_001](../assets/opl_settings_001.png){ width="500" }
+</figure>
+
+!!! note "Settings vary between OPL versions"
+
+    The below settings may have differing names or might not be available depending on your version of OPL. Adjust any settings that you do have.
+
+### Settings
+
+Select `Settings` from this menu.
+
+Some recommended settings include:
+
+* Disable Debug Colors: `On` / Debug Colors: `Off`
+* USB device start mode: `Off` / BDM Start Mode: `Manual | Block Devices`
+* HDD device start mode: `Auto` 
+* Default menu: `HDD Games` 
+
+<figure markdown="span">
+    ![opl_settings_002](../assets/opl_settings_002.png){ width="500" }
+</figure>
+
+When finished, select `OK` at the bottom.
+
+### Display settings
+
+Select `Display Settings`.
+
+Some recommended settings include:
+
+* Enable Cover Art: `On` / Cover Art: `On`
+* Display info page: `On`
+
+<figure markdown="span">
+    ![opl_settings_003](../assets/opl_settings_003.png){ width="500" }
+</figure>
+
+When finished, select `OK` at the bottom.
+
+To save all changes, select `Save changes` from the top **Settings** menu.
+
+<figure markdown="span">
+    ![opl_settings_008](../assets/opl_settings_008.png){ width="500" }
+</figure>
+
+### Documentation
+
+Consult the [PS2-Home: OPL Recommended Settings](https://www.ps2-home.com/forum/app.php/page/opl_recommended_settings) / [Web archive mirror](http://web.archive.org/web/20230521200731/https://www.ps2-home.com/forum/app.php/page/opl_recommended_settings) thread for a thorough explanation of all of the OPL settings and further recommendations.
 
 ## Using OPL
 
@@ -24,11 +76,15 @@ While playing a game in OPL, `L1+R1+L2+R2+Start+Select` will activate in game re
 
 ## OPL compatibility
 
-While OPL with an internal hard drive has a very high game compatibility rate, not all games will be compatible or ready to play with default settings. Before installing game backups, be sure to consult OPL compatibility guides for any warnings or notes. If a game crashes, encounters black screens, or behaves weirdly, try the following steps.
+While OPL with an internal hard drive has a very high game compatibility rate, some games may still encounter issues or bugs with default settings. Before installing game backups, be sure to consult OPL compatibility guides for any warnings or notes. If a game crashes, encounters black screens, or behaves weirdly, try the following steps.
 
 ### Compatibility lists
 
-These lists were taken from [jolek's OPL Game Compatibility Lists thread](https://www.psx-place.com/threads/open-ps2-loader-game-compatibility-lists.19037/) with broken or obsolete ones removed.
+These lists were taken from [jolek's OPL Game Compatibility Lists thread](https://www.psx-place.com/threads/open-ps2-loader-game-compatibility-lists.19037/) with broken or obsolete links removed.
+
+!!! info "Check HDD compatibility"
+
+    Some of these lists may list compatibility for other storage options such as USB hard drives, SMB, or MX4SIO. Ensure that the compatibility notes are specific to playing game backups on an internal HDD. Additionally, keep in mind some notes might have only been tested on SATA or IDE drives.
 
 - [Algol's OPL Game Compatibility List](https://docs.google.com/spreadsheets/d/1K7szQS_9VG8es22eORw3xXTXxp5bZRpHOL6YJDH7S6c/edit?gid=971129131#gid=971129131)
 - [OPL-CL](http://sx.sytes.net/oplcl/games.aspx)
@@ -39,7 +95,33 @@ These lists were taken from [jolek's OPL Game Compatibility Lists thread](https:
 
 Certain games may not work with OPL's default settings. To fix certain edge cases, OPL allows some of these settings, called **compatibility modes**, to be enabled or disabled per game.
 
-To access these, highlight the game and hit triangle to enter the options screen and select `Game Settings`. After adjusting settings, select `Save Changes` from the options screen. These compatibility modes can toggled in any combination, but some settings are intended to work in conjunction (such as 3 and 6). Consult the compatibility modes guide for more detailed information.
+To access these, highlight the game and hit triangle to enter the game's **Customized Settings** screen. Select `Game Settings`.
+
+<figure markdown="span">
+    ![opl_settings_004](../assets/opl_settings_004.png){ width="500" }
+</figure>
+
+Under the **Game Settings** heading, each of the modes will display an `On`/`Off` status. Highlighting a mode will display a short function label in the bottom right corner. To toggle the mode status, press X.
+
+<figure markdown="span">
+    ![opl_settings_006](../assets/opl_settings_006.png){ width="500" }
+</figure>
+
+These compatibility modes can toggled in any combination, but some settings are intended to work in conjunction (such as 3 and 6). Consult the compatibility modes guide for more detailed information.
+
+After adjusting settings, select `OK` to return to the previous screen.
+
+<figure markdown="span">
+    ![opl_settings_005](../assets/opl_settings_005.png){ width="500" }
+</figure>
+
+From here, select `Save Changes`.
+
+<figure markdown="span">
+    ![opl_settings_007](../assets/opl_settings_007.png){ width="500" }
+</figure>
+
+After the changes have been saved, you can boot directly into the game by selecting `Test Changes`, or to return to the OPL **Game List** by pressing circle.
 
 A breakdown of OPL's compatibility modes can be found here: [PS2-Home: OPL Compatibility modes](https://www.ps2-home.com/forum/app.php/page/opl_modes) / [Web archive mirror](http://web.archive.org/web/20230929004713/https://www.ps2-home.com/forum/app.php/page/opl_modes).
 
