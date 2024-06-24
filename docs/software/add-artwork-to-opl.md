@@ -108,7 +108,7 @@ Artwork can be loaded directly onto the HDD by mounting the OPL partition with H
 
 1. Click the `Mount hdd Partition` option.
 
-    1. You may be prompted to install Dokan if it is not installed already. Click the prompt to go to the website to download the installer. Alternatively, you can get it [from the Github page]([Dokan](https://github.com/dokan-dev/dokany/releases) by downloading `DokanSetup.exe` under **Assets** beneath the latest release.
+    1. You may be prompted to install Dokan if it is not installed already. Click the prompt to go to the website to download the installer. Alternatively, you can get it from the [Dokan Github page](https://github.com/dokan-dev/dokany/releases) by downloading `DokanSetup.exe` under **Assets** beneath the latest release.
 
     1. When done installing Dokan, restart HDL Batch Installer before continuing.
 
@@ -227,6 +227,6 @@ You are ready to play game backups complete with game artwork or themes for OPL.
 
 [**Next: Setting up and using OPL**](../OPL-guide/)
 
-This is the end of the main sections of the internal HDD guide. However, if you would like to load FreeMcBoot without a memory card, it is possible to load it directly from the hard drive by installing FreeHDBoot instead. This method has a slightly slower boot time but may be preferable if you always want to run the exploit (without the ability to revert to stock) or both memory card slots are needed.
+This is the end of the main tutorials of the internal HDD guide. However, if you would like to load FreeMcBoot without a memory card, it is possible to load it directly from the hard drive by installing FreeHDBoot instead. This method has a slightly slower boot time but may be preferable if you always want to run the exploit (without the ability to revert to stock) or both memory card slots are needed.
 
 [**OPTIONAL guide: Install FreeHDBoot onto hard drive**](../install-freehdboot/) 

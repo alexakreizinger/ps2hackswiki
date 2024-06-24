@@ -1,6 +1,6 @@
 # Install or Update OPL
 
-OPL is typically already installed on a pre-made FMCB memory card. However, if it is not yet installed, this guide will walk you through the process.
+OPL is typically already installed on a pre-made FMCB memory card as `OPL`, `OpenPS2Loader`, or similar names. However, if it is not yet installed, this guide will walk you through the process.
 
 !!! note "Updating OPL"
 

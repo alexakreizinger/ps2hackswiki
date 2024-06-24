@@ -41,7 +41,7 @@ This guide will cover how to format and partition a hard drive for usage as an i
 
 1. Launch `uLaunchELF`/`wLaunchELF` from the main menu.
 
-    1. If the option is not available, try inserting your FMCB memory card into the other slot. Some cards may have issues being read from the second slot.
+    1. If the option is not available, try booting with the FMCB memory card inserted into the other slot. Some cards may have issues being read from the second slot.
 
     <figure markdown="span">
       ![drive_partition_0](../assets/drive_partition_0.png){ width="500" }
