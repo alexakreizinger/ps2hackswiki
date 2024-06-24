@@ -42,7 +42,7 @@ This guide was written with a few key sources and guides either strictly followe
 
 !!! note "SATA vs IDE hard drives"
 
-    In the years following the PS2's release SATA drives replaced IDE drives, but the official PS2 network adapter (which mounts a hard drive internally so it can be used in the expansion bay) was only released with IDE connectors. SATA hard drives are are much larger, cheaper, and easier to find. While using a SATA drive requires modifying the official network adapter from IDE connectors, you will be able to find a much cheaper drive with more space for the small price of installing a SATA upgrade kit on the network adapter.
+    In the years following the PS2's release SATA drives replaced IDE drives, but the official PS2 network adapter (which mounts a hard drive internally so it can be used in the expansion bay) was only released with IDE connectors. This guide recommends SATA hard drives as they are much larger, cheaper, and easier to find, but note that this will require installing a SATA connector on the network adapter using a SATA network adapter upgrade kit. A SATA drive and upgrade kit will provide larger storage for a lower price.
 
 !!! warning "Gamestar network adapter"
 

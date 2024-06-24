@@ -2,12 +2,16 @@
 
 Games will not display artwork by default in OPL. This guide will walk through downloading artwork using OPL Manager and then loading it onto an internal hard drive by mounting it to your PC with HDL Batch Installer or transferring it using a USB drive.
 
+!!! tip "Tip: OPL themes"
+
+    Some of these steps will allow you to copy OPL themes to your hard drive as well. Browse OPL themes on [PSX Place here](https://www.psx-place.com/forums/themes-for-opl.229/?order=view_count).
+
 ## Download artwork using OPL Manager
 
 ### Requirements
 
 * A Windows PC
-* OPL Manager
+* [OPL Manager](https://oplmanager.com/site/)
 * PS2-formatted hard drive with game backups
 
 !!! note "Note: Game list"
@@ -17,7 +21,13 @@ Games will not display artwork by default in OPL. This guide will walk through d
 ### Instructions
 
 1. Connect PS2 HDD to PC.
+
+1. Download and unzip the latest version of [OPL Manager](https://oplmanager.com/site/).
+
+    1. You may need to [install .Net Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer) first if you do not already have it.
+
 1. Right click on **OPL Manager** and select `Run as administrator`.
+
 1. When prompted to set mode, select the `Local PS2 HDD` option.
 
     <figure markdown="span">
@@ -35,7 +45,7 @@ Games will not display artwork by default in OPL. This guide will walk through d
     2. If not first startup, ensure that any additional games are added to the cache by selecting `Local HDD Options > Get game list`.
 
         <figure markdown="span">
-        ![refresh_assets_01](../assets/refresh_assets_01.png){ width="400" }
+        ![refresh_assets_01](../assets/refresh_assets_01.png){ width="500" }
         </figure>
 
 1. Ensure the hard drive is properly connected, then hit `OK`.
@@ -70,14 +80,15 @@ Games will not display artwork by default in OPL. This guide will walk through d
 
 Artwork can be loaded directly onto the HDD by mounting the OPL partition with HDL Batch Installer.
 
-!!! note "Compatibility varies"
+!!! warning "Compatibility varies"
 
     This method is faster and more direct but opening PS2 HDD partitions does not work on all computers. Additionally, even if a hard drive can be mounted, some files may encounter errors with copying and require using the USB thumb drive method.
 
 ### Requirements
 
 * A Windows PC
-* HDL Batch Installer
+* [HDL Batch Installer](https://www.psx-place.com/resources/hdl-batch-installer.1173/)
+* [Dokan](https://github.com/dokan-dev/dokany/releases)
 
 ### Instructions
 
@@ -97,7 +108,8 @@ Artwork can be loaded directly onto the HDD by mounting the OPL partition with H
 
 1. Click the `Mount hdd Partition` option.
 
-    1. You may be prompted to install Dokan if it is not installed already. Click the prompt to go to the website to download the installer.
+    1. You may be prompted to install Dokan if it is not installed already. Click the prompt to go to the website to download the installer. Alternatively, you can get it [from the Github page]([Dokan](https://github.com/dokan-dev/dokany/releases) by downloading `DokanSetup.exe` under **Assets** beneath the latest release.
+
     1. When done installing Dokan, restart HDL Batch Installer before continuing.
 
     <figure markdown="span">
@@ -130,9 +142,7 @@ Artwork can be loaded directly onto the HDD by mounting the OPL partition with H
 
 1. Copy artwork from the OPL Manager art folder located at `OPL_Manager/hdl_hdd/ART` to the +OPL partition `ART/` folder on the hard drive.
 
-    !!! tip "Tip: OPL themes"
-    
-        Along with game artwork, OPL themes can also be loaded directly to the hard drive using this method. Copy theme folders (which use the naming prefix `thm_`) to the `THM/` directory.
+    1. If you are copying themes, copy the folders (which use the naming prefix `thm_`) to the `THM/` directory.
 
 1. When finished, click the `Unmount` button to unmount the drive.
 
@@ -147,14 +157,15 @@ If your PC is unable to mount the OPL partition, artwork can be loaded using a U
 ### Requirements
 
 * USB thumb drive formatted to FAT32
+* FMCB card
 
 ### Instructions
 
 1. Copy the `ART/` folder to the FAT32 USB drive.
 
-    1. In addition, themes can be loaded and copied by copying `THM/` to the drive as well.
+    1. In addition, themes can be installed by creating a folder called `THM/` containing the themes (folders that start with the `thm_` prefix) and copying this to the drive as well. Follow the same steps but with the `THM/` directory instead of `ART/`.
 
-1. Plug both USB and hard drive into PS2.
+1. Plug both USB and hard drive into PS2. Ensure that your FMCB card is inserted and boot up the PS2.
 
 1. Select `uLaunchELF`.
 
@@ -168,13 +179,13 @@ If your PC is unable to mount the OPL partition, artwork can be loaded using a U
       ![artwork_18](../assets/artwork_18.png){ width="500" }
     </figure>
 
-1. Scroll down and use circle to select `mass:/`.
+1. Scroll down and use circle to select `mass:/`, which is the USB thumb drive storage.
 
     <figure markdown="span">
       ![artwork_19](../assets/artwork_19.png){ width="500" }
     </figure>
 
-1. Scroll or dive into your USB drive to highlight the `ART/` directory then click R1 to open the `Menu`.
+1. Find the `ART/` directory and highlight it. Click R1 to open the `Menu`.
 
     <figure markdown="span">
       ![artwork_20](../assets/artwork_20.png){ width="500" }
@@ -210,13 +221,11 @@ If your PC is unable to mount the OPL partition, artwork can be loaded using a U
       ![artwork_25](../assets/artwork_25.png){ width="500" }
     </figure>
 
-1. Once finished, open OPL to confirm the images have been loaded correctly.
-
-!!! tip "Tip: Copying themes"
-
-    "Repeat these last few steps to copy any themes to the OPL directory by pasting over the `THM/` folder."
+1. Once finished, open OPL to confirm the images or themes have been loaded correctly.
 
 You are ready to play game backups complete with game artwork or themes for OPL.
+
+[**Next: Setting up and using OPL**](../OPL-guide/)
 
 This is the end of the main sections of the internal HDD guide. However, if you would like to load FreeMcBoot without a memory card, it is possible to load it directly from the hard drive by installing FreeHDBoot instead. This method has a slightly slower boot time but may be preferable if you always want to run the exploit (without the ability to revert to stock) or both memory card slots are needed.
 

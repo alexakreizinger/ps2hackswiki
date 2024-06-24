@@ -17,6 +17,8 @@ This guide will cover how to format and partition a hard drive for usage as an i
 ## Requirements
 
 * Internal hard drive
+* Official PS2 network adapter
+    * With SATA connector upgrade if using SATA hard drive
 * FMCB memory card
 
 ## Instructions
@@ -33,19 +35,25 @@ This guide will cover how to format and partition a hard drive for usage as an i
 
 1. Plug the FMCB card into the memory card slot and boot up the PS2.
 
-1. Launch `uLaunchELF` from the main menu.
+    !!! info "uLaunchELF/wLaunchELF"
+
+        If you have not launched the PS2 with the FMCB card inserted before you will notice some apps have been added to the home menu. One of these will be named `uLaunchELF` or its newer version, `wLaunchELF`. This app can browse files and launch executables on the PS2, specifically `.elf` files.
+
+1. Launch `uLaunchELF`/`wLaunchELF` from the main menu.
 
     <figure markdown="span">
       ![drive_partition_0](../assets/drive_partition_0.png){ width="500" }
     </figure>
 
-1. In this menu, circle advances and triangle goes back. Press circle to advance to the `FileBrowser`.
+1. In this menu, the circle is used to select. Press circle to advance to the `FileBrowser`.
 
     <figure markdown="span">
       ![drive_partition_1](../assets/drive_partition_1.png){ width="500" }
     </figure>
 
 1. Use d-pad to navigate to `MISC/` and press circle to select it.
+
+    1. If you mistakenly select the wrong folder, press the triangle button to return to the higher directory.
 
     <figure markdown="span">
       ![drive_partition_2](../assets/drive_partition_2.png){ width="500" }
@@ -125,9 +133,9 @@ This guide will cover how to format and partition a hard drive for usage as an i
 
 Once the hard drive has been formatted, game backups can be installed onto it and played through OPL.
 
-Before moving to the next guide, ensure that OPL is installed on your FMCB card. Many pre-made FMCB cards will have apps such as OPL already loaded. However, if OPL isn't installed (or found to be outdated), follow the below optional guide to install or update it first.
+Before moving to the next guide, ensure that OPL is installed on your FMCB card. Many pre-made FMCB cards will have apps such as OPL already loaded. However, if OPL isn't installed (or is outdated), follow the below optional guide to install or update it first.
 
-[**Next (ONLY if not installed): Install OPL onto FMCB card**](../OPL/) 
+[**Next (ONLY if not installed): Install OPL onto FMCB card**](../install-OPL/) 
 
 If OPL is installed, continue below.
 

@@ -1,6 +1,10 @@
 # Install or Update OPL
 
-OPL is typically already installed on a pre-made FMCB memory card. However, if it is not yet installed or needs an update, this guide will walk you through the process.
+OPL is typically already installed on a pre-made FMCB memory card. However, if it is not yet installed, this guide will walk you through the process.
+
+!!! note "Updating OPL"
+
+    These steps can also be used to update OPL. If your OPL elf files have the same name, you can simply overwrite the existing OPL elf. However, if your new OPL elf has a different file name (because of versioning), you can choose to install it in addition to the previous one or delete the other OPL elf after installing the new one.
 
 ## Credits
 
@@ -15,7 +19,7 @@ OPL is typically already installed on a pre-made FMCB memory card. However, if i
 
 ### Load OPL elf file onto USB
 
-1. Go to the [OPL Github](https://github.com/ps2homebrew/Open-PS2-Loader/releases) page and click the version link you want to use.
+1. Go to the [OPL Github](https://github.com/ps2homebrew/Open-PS2-Loader/releases) page and select the version you want to use.
 
     1. The most recent stable release will be given a version name such as v1.1.0 and will be labeled `Latest`. This will provide the best stability, but may not have improvements made in beta releases.
     

@@ -14,7 +14,9 @@ This guide will walk through loading game backups directly onto the hard drive f
 ## Instructions
 
 1. Connect your hard drive to your PC using a SATA enclosure or adapter.
+
 2. Download and unzip the [HDL Batch Installer](https://www.psx-place.com/resources/hdl-batch-installer.1173/).
+
 3. Right click `HDL-Batch-installer.exe` and select `Run as administrator`. Select `OK`.
 
 1. Click `search ps2 HDD's` at the top of the program. It will automatically populate with a connected PS2 hard drive.

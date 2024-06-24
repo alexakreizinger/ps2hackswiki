@@ -26,7 +26,7 @@ Blaine Locklair
 1. Copy the unzipped installer folder onto the thumb drive.
 
     <figure markdown="span">
-      ![freehdboot_0](../assets/freehdboot_0.png){ width="500" }
+      ![freehdboot_0](../assets/freehdboot_0.png){ width="400" }
     </figure>
 
 1. Insert the thumb drive, FMCB card, and hard drive into the PS2.
@@ -38,19 +38,19 @@ Blaine Locklair
 2. Boot up the PS2 and select `uLaunchELF`.
 
     <figure markdown="span">
-      ![freehdboot_1](../assets/freehdboot_1.png){ width="500" }
+      ![artwork_17](../assets/artwork_17.png){ width="500" }
     </figure>
 
 1. Press circle to enter the `FileBrowser`.
 
     <figure markdown="span">
-      ![freehdboot_2](../assets/freehdboot_2.png){ width="500" }
+      ![artwork_18](../assets/artwork_18.png){ width="500" }
     </figure>
 
 1. Scroll down to `mass:/` which represents the USB thumb drive and press circle to select.
 
     <figure markdown="span">
-      ![freehdboot_3](../assets/freehdboot_3.png){ width="200" }
+      ![artwork_19](../assets/artwork_19.png){ width="500" }
     </figure>
 
 1. Scroll down to highlight the extracted installer folder and press circle.
