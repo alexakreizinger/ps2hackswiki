@@ -25,9 +25,9 @@ This guide will cover how to format and partition a hard drive for usage as an i
 
 1. Attach the hard drive to the SATA or IDE connection on the network adapter.
 
-    !!! warning "SATA connectors"
+    !!! warning "SATA drives"
 
-        If you are using a SATA drive, ensure that you have installed an upgrade kit. This [text guide on the console mods wiki](https://consolemods.org/wiki/PS2:SATA_Board_for_LAN_Adapter) walks through the process.
+        If you are using a SATA drive, ensure that you have installed an upgrade kit on the network adapter so that it has a SATA connector instead of IDE. This [text guide on the console mods wiki](https://consolemods.org/wiki/PS2:SATA_Board_for_LAN_Adapter) walks through the process.
 
 1. Remove the panel labeled `EXPANSION BAY` from the back of the PS2. Slot the network adapter with the attached hard drive into this slot with the connectors. Turn the two large screws on the adapter to attach it firmly.
 
