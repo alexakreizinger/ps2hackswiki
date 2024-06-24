@@ -8,7 +8,7 @@ There are multiple methods of storing and loading game backups on PS2, but an in
 
 !!! warning "Hardware modification"
 
-    While hardware modification is not necessary for this guide, it is recommended for one minor upgrade to allow larger and more modern hard drives to be used. This modification is *only* performed on the internet adapter (not the PS2 itself) and is fairly straightforward.
+    While hardware modification is not necessary for this guide, it is recommended for one minor upgrade to allow SATA (which are larger and more modern than IDE) hard drives to be used. This modification is *only* performed on the internet adapter (not the PS2 itself) and is fairly straightforward.
 
 This guide will cover how to format and partition a hard drive with a FreeMcBoot card, install game backups to the drive directly from PC, install a homebrew app (such as OPL if it is not already installed), and download game artwork to display in OPL.
 
@@ -28,7 +28,7 @@ This guide was written with a few key sources and guides either strictly followe
 - Official Sony PS2 internet adapter
     - For internal HDD expansion bay
 - Internal hard drive
-    - SATA (recommended, larger and more modern) or IDE
+    - SATA (recommended) or IDE
 - If using SATA hard drive:
     - SATA upgrade kit for official Sony PS2 internet adapter
 - Adapter for connecting internal hard drive to PC
@@ -40,6 +40,10 @@ This guide was written with a few key sources and guides either strictly followe
 
     While it is possible to avoid buying or using FreeMcBoot (FMCB) card by flashing a FreeHDBoot image to a hard drive, this is not the recommended way to format or partition a drive. Cards are fairly cheap and easy to find online and will enable proper formatting of the drive on the PS2.
 
+!!! note "SATA vs IDE hard drives"
+
+    In the years following the PS2's release SATA drives replaced IDE drives, but the official PS2 network adapter (which mounts a hard drive internally so it can be used in the expansion bay) was only released with IDE connectors. SATA hard drives are are much larger, cheaper, and easier to find. While using a SATA drive requires modifying the official network adapter from IDE connectors, you will be able to find a much cheaper drive with more space for the small price of installing a SATA upgrade kit on the network adapter.
+
 !!! warning "Gamestar network adapter"
 
     You may come across unofficial "network" adapters (without actual network functionality) such as Gamestar that already have SATA connectors and require no modification. These adapters greatly vary in quality, frequently break, and aren't compatible with virtual memory cards (VMCs) in OPL.
@@ -50,7 +54,7 @@ This guide was written with a few key sources and guides either strictly followe
 
 ## Getting Started
 
-If you are planning to use a SATA hard drive it will be the single hardware modification required before starting this guide. The console mods wiki provides a [thorough text guide with diagrams here](https://consolemods.org/wiki/PS2:SATA_Board_for_LAN_Adapter), but in addition most kits will come with picture instructions for how to install the mod.
+If you are planning to use a SATA hard drive, you must first install a SATA connector on your official PS2 network adapter using a SATA upgrade kit. This will be the single hardware modification required before starting this guide. The console mods wiki provides a [thorough text guide with diagrams here](https://consolemods.org/wiki/PS2:SATA_Board_for_LAN_Adapter), but in addition most kits will come with picture instructions for how to install the mod.
 
 Once installed, you can begin the guide.
 
