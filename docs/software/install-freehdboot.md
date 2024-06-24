@@ -4,7 +4,7 @@ Instead of loading FreeMcBoot from a memory card, it is possible to load it dire
 
 !!! warning "Flashing pre-made images to hard drive"
 
-    An alternative to installing FreeHDBoot using a FreeMcBoot card is to flash a pre-made RAW image using HDD Raw Copy Tool. These disc images are created from drives that may have differing disk geometry from the one you are using, so it is recommended to instead use uLaunchELF to run the FreeMcBoot installer on your PS2 to install it to your hard drive instead.
+    An alternative to installing FreeHDBoot using a FreeMcBoot card is to flash a pre-made RAW image using HDD Raw Copy Tool. These disc images are created from drives that may have differing disk geometry from the one you are using, so it is recommended to instead use uLaunchELF to run the FreeHDBoot installer on your PS2 to install it to your hard drive instead.
 
 ## Credits
 
