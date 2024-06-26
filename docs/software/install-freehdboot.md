@@ -81,12 +81,14 @@ Blaine Locklair
 
     <figure markdown="span">
       ![freehdboot_8](../assets/freehdboot_8.png){ width="500" }
+    <figcaption>Img credit: Blaine Locklair</figcaption>
     </figure>
 
 1. When the installation finished, it will show this dialog. Hit `OK`.
 
     <figure markdown="span">
       ![freehdboot_9](../assets/freehdboot_9.png){ width="500" }
+    <figcaption>Img credit: Blaine Locklair</figcaption>
     </figure>
 
 1. The FreeHDBoot install is finished! The next time the PS2 is booted it does not need the FMCB card inserted.
