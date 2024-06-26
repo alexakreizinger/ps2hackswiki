@@ -2,6 +2,10 @@
 
 This guide will walk through loading game backups directly onto the hard drive from a PC using HDL Batch Installer.
 
+!!! warning "Removing games"
+
+    Because PS2 games are installed as separate partitions, uninstalling them is more complex than just deleting a single file. A separate guide for how to delete games by deleting their partitions [can be found here](../uninstall-OPL-games/).
+
 ## Requirements
 
 * Internal hard drive formatted for PS2

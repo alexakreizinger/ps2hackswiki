@@ -1,6 +1,6 @@
 # Install FreeHDBoot to internal hard drive
 
-Instead of loading FreeMcBoot from a memory card, it is possible to load it directly from the hard drive by installing FreeHDBoot. This guide will walk through installing FreeHDBoot onto your internal hard drive using a USB thumb drive.
+Instead of loading FreeMcBoot from a memory card, it is possible to load it directly from the hard drive by installing FreeHDBoot. This guide will walk through installing FreeHDBoot onto your internal hard drive using an existing FMCB card and USB thumb drive.
 
 !!! warning "Flashing pre-made images to hard drive"
 

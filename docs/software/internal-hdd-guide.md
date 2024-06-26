@@ -14,6 +14,10 @@ This guide will cover how to format and partition a hard drive with a FreeMcBoot
 
 Optionally, it is also possible to install the software exploit directly onto the hard drive (albeit with slightly slower boot time) to always boot into it without a memory card if desired. This exploit is called FreeHDBoot and should only be done after formatting the hard drive.
 
+## Alternatives
+
+The aim of this guide is to provide a single path of straightforward instructions for setting up the internal hard drive method and version of OPL that is well supported, documented, and compatible with the highest number of games. There are some alternative methods for advanced users that have some trade-offs, but to avoid complicating the path of this guide they are instead covered on the [HDD alternatives page](../create-drive-partitions/).
+
 ## Credits
 
 This guide was written with a few key sources and guides either strictly followed but with the addition of images or otherwise serving as reference with some modifications to remove usage of obsolete software or simplify existing methods.
@@ -27,7 +31,7 @@ This guide was written with a few key sources and guides either strictly followe
     - All fat PS2s and certain slim models with hardware modification
 - Official Sony PS2 internet adapter
     - For internal HDD expansion bay
-- Internal hard drive
+- Internal hard drive under 2TB
     - SATA (recommended) or IDE
 - If using SATA hard drive:
     - SATA upgrade kit for official Sony PS2 internet adapter
