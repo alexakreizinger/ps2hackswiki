@@ -2,7 +2,7 @@
 
 ## OPL (Open PS2 Loader)
 
-- [OPL release v1.1.0](https://github.com/ps2homebrew/Open-PS2-Loader/releases/tag/v1.1.0)
+- [OPL releases page](https://github.com/ps2homebrew/Open-PS2-Loader/releases)
 
 !!! note "Note"
 
