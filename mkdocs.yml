@@ -13,6 +13,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
 
 nav:
   - Home:
@@ -23,4 +25,13 @@ nav:
     - Controller adapters: hardware/controller-adapters.md
   - Software:
     - software/index.md
-    - OPL: software/OPL.md
+    - Internal HDD guide: software/internal-hdd-guide.md
+    - Grimdoomer OPL fork: software/grimdoomer-OPL-fork.md
+    - Internal HDD exploits: software/internal-hdd-exploits.md
+    - Format and Partition HDD: software/create-drive-partitions.md
+    - Install OPL: software/install-OPL.md
+    - Install OPL games: software/hdl-batch-installer.md
+    - Uninstall OPL games: software/uninstall-OPL-games.md
+    - Add artwork to OPL: software/add-artwork-to-opl.md
+    - OPL guide: software/OPL-guide.md
+    - Install Free HDBoot: software/install-freehdboot.md
