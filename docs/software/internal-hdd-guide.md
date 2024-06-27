@@ -23,7 +23,7 @@ This guide was written by following some excellent existing guides and cross ref
 ## Requirements
 
 - PS2 compatible with internal hard drive
-    - All fat PS2s and certain slim models with hardware modification
+    - All fat PS2s and certain slim models (SCPH-700XX) with hardware modification
 - Official Sony PS2 internet adapter
     - For internal HDD expansion bay
 - Internal hard drive under 2TB
