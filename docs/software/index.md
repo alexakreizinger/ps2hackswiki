@@ -1,5 +1,7 @@
 # Software
 
+Software guides describe how to modify your PS2's internal software.
+
 ## OPL (Open PS2 Loader)
 
 - [OPL releases page](https://github.com/ps2homebrew/Open-PS2-Loader/releases)
