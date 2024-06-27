@@ -22,7 +22,6 @@ nav:
   - Hardware:
     - hardware/index.md
     - Burn discs with ESR: hardware/burn-discs-esr.md
-    - Controller adapters: hardware/controller-adapters.md
   - Software:
     - software/index.md
     - Internal HDD guide: software/internal-hdd-guide.md

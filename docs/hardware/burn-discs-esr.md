@@ -1,6 +1,6 @@
 # Burn discs with ESR
 
-You can create self-burning discs using the FreeDVDBoot ESR patcher. This lets you burn a PlayStation 2 game's `.iso` file onto a DVD, then play that game from your burned DVD—without modifying your PS2's hardware in any way.
+You can create self-booting game discs using the FreeDVDBoot ESR patcher. This lets you burn a PlayStation 2 game's `.iso` file onto a DVD, then play that game from your burned DVD—without modifying your PS2's hardware in any way.
 
 !!! warning "Not all PS2s are compatible"
 
