@@ -1,21 +1,20 @@
-# Internal HDD alternatives
+# Grimdoomer OPL fork
 
-While the main internal HDD guide provides one method of setting up an internal hard drive with OPL, there is an alternative method that allow for storage options higher than 2TB and drag and drop OPL game install functionality. However, this option has caveats and will not be covered by this guide. Instead, this page will provide links for more advanced users to pursue or evaluate this option.
+The Grimdoomer fork of OPL allows exFAT HDDs larger than 2TB to be used. However, the fork is currently abandoned, its game compatibility is generally not formally documented, and it is not compatible with Free HDBoot. However, the trade offs may be worth it for users who prefer a larger storage device.
 
-## Grimdoomer OPL fork
-
-### Advantages
+## Advantages
 
 * Can use HDD storage over 2TB
 * Drag and drop game installs and easy deletion
 
-### Caveats
+## Disadvantages
 
 * Currently abandoned and unsupported
 * Forks an older version of OPL without later updates/fixes
-* Undocumented + (most likely) lesser compatibility compared to main OPL branch
+* Undocumented and (most likely) lesser compatibility compared to main OPL branch
+* Not compatible with Free HDBoot
 
-### Links
+## Links
 
 * [Blaine Locklair's YouTube guide](https://www.youtube.com/watch?v=8ZTVR2kycN0)
 * [Macho Nacho Productions's YouTube guide](https://www.youtube.com/watch?v=nKoRvWKojz0)

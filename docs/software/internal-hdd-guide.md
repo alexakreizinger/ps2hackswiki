@@ -6,17 +6,13 @@ There are multiple methods of storing and loading game backups on PS2, but an in
 
     While hardware modification is not necessary for this guide, it is recommended for one minor upgrade to allow SATA (which are larger and more modern than IDE) hard drives to be used. This modification is *only* performed on the internet adapter (not the PS2 itself) and is fairly straightforward.
 
-This guide will cover how to format and partition a hard drive with a Free McBoot card, install game backups to the drive directly from PC, install a homebrew app (such as OPL if it is not already installed), and download game artwork to display in OPL.
+This guide will cover how to properly format and partition a hard drive, install game backups to the drive directly from PC, install a homebrew app (such as OPL if it is not already installed), and download game artwork to display in OPL.
 
 Optionally, it is also possible to install the software exploit directly onto the hard drive (albeit with slightly slower boot time) to always boot into it without a memory card if desired. This exploit is called Free HDBoot and should only be done after formatting the hard drive.
 
-## Alternatives
-
-The aim of this guide is to provide a single path of straightforward instructions for setting up the internal hard drive method and version of OPL that is well supported, documented, and compatible with the highest number of games. There are some alternative methods for advanced users that have some trade-offs, but to avoid complicating the path of this guide they are instead covered on the [HDD alternatives page](../create-drive-partitions/).
-
 ## Credits
 
-This guide was written with a few key sources and guides either strictly followed but with the addition of images or otherwise serving as reference with some modifications to remove usage of obsolete software or simplify existing methods.
+This guide was written with a few key sources, but the following guides were most heavily referenced for instructions and general structure.
 
 - [Blaine Locklair's The ULTIMATE Guide To Play PS2 Games From A HDD](https://www.youtube.com/watch?v=C02j3wTuJag)
 - [Fin9ersMcGee's [Tutorial] The Great PS2 AIO Guide](https://www.psx-place.com/threads/tutorial-the-great-ps2-aio-guide.30219/)
@@ -34,9 +30,13 @@ This guide was written with a few key sources and guides either strictly followe
 - Adapter for connecting internal hard drive to PC
 - PC
 
+!!! info "Hard drives larger than 2TB"
+
+    While the method in this guide is limited to drives under 2TB, there is an alternative, less documented method that allows drives larger than 2TB to be used. This guide will not provide instructions on how to set this up, but instead [summarizes its pros and cons and provides links to other guides on this page](../grimdoomer-OPL-fork/).
+
 !!! note "SATA vs IDE hard drives"
 
-    In the years following the PS2's release SATA drives replaced IDE drives, but the official PS2 network adapter (which mounts a hard drive internally so it can be used in the expansion bay) was only released with IDE connectors. This guide recommends SATA hard drives as they are much larger, cheaper, and easier to find, but note that this will require installing a SATA connector on the network adapter using a SATA network adapter upgrade kit. A SATA drive and upgrade kit will provide larger storage for a lower price.
+    In the years following the PS2's release SATA drives replaced IDE drives, but the official PS2 network adapter (which mounts a hard drive internally so it can be used in the expansion bay) was only released with IDE connectors. This guide recommends SATA hard drives as they are much larger, cheaper, and easier to find, but note that this will require installing a SATA connector on the network adapter using a **SATA network adapter upgrade kit**. A SATA drive and upgrade kit will provide larger storage for a lower price.
 
 !!! warning "Gamestar network adapter"
 

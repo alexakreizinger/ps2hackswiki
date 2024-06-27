@@ -26,7 +26,7 @@ nav:
   - Software:
     - software/index.md
     - Internal HDD guide: software/internal-hdd-guide.md
-    - Internal HDD alternatives: software/internal-hdd-alternatives.md
+    - Grimdoomer OPL fork: software/grimdoomer-OPL-fork.md
     - Internal HDD exploits: software/internal-hdd-exploits.md
     - Format and Partition HDD: software/create-drive-partitions.md
     - Install OPL: software/install-OPL.md
