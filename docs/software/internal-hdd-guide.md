@@ -12,10 +12,13 @@ Optionally, it is also possible to install the software exploit directly onto th
 
 ## Credits
 
-This guide was written with a few key sources, but the following guides were most heavily referenced for instructions and general structure.
+This guide was written by following some excellent existing guides and cross referencing updated information from dedicated and knowledgeable PS2 communities.
 
 - [Blaine Locklair's The ULTIMATE Guide To Play PS2 Games From A HDD](https://www.youtube.com/watch?v=C02j3wTuJag)
 - [Fin9ersMcGee's [Tutorial] The Great PS2 AIO Guide](https://www.psx-place.com/threads/tutorial-the-great-ps2-aio-guide.30219/)
+- [PSX-Place](https://www.psx-place.com/)
+- [r/ps2](https://www.reddit.com/r/ps2/)
+- [PS2-Home](https://www.ps2-home.com/forum/app.php/portal)
 
 ## Requirements
 
