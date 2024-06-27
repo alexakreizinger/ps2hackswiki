@@ -27,10 +27,11 @@ nav:
     - software/index.md
     - Internal HDD guide: software/internal-hdd-guide.md
     - Internal HDD alternatives: software/internal-hdd-alternatives.md
-    - Create drive partitions: software/create-drive-partitions.md
+    - Internal HDD exploits: software/internal-hdd-exploits.md
+    - Format and Partition HDD: software/create-drive-partitions.md
     - Install OPL: software/install-OPL.md
     - Install OPL games: software/hdl-batch-installer.md
     - Uninstall OPL games: software/uninstall-OPL-games.md
     - Add artwork to OPL: software/add-artwork-to-opl.md
     - OPL guide: software/OPL-guide.md
-    - Install FreeHDBoot: software/install-freehdboot.md
+    - Install Free HDBoot: software/install-freehdboot.md

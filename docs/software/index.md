@@ -22,11 +22,11 @@
 
 ## Drive Formatters
 
-- [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) to format USB thumb drives to FAT32
+- [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) to format USB storage devices to FAT32
 
-## Optional: FreeMCBoot Installer for FreeHDBoot
+## Optional: Free McBoot Installer for Free HDBoot
 
-- [FreeMCBoot Installer](https://israpps.github.io/FreeMcBoot-Installer/test/8_Downloads.html)
+- [Free McBoot Installer](https://israpps.github.io/Free McBoot-Installer/test/8_Downloads.html)
 
 ## Obsolete + Not Recommended Software
 
@@ -36,4 +36,3 @@
 | HDL BATCH | HDL Batch Installer | "Uses an older version of HDL-Dump" - [source](https://israpps.github.io/HDL-Batch-installer/why_hdlbinst_is_better.html) |
 | HDL Dump | HDL Batch Installer | "Uses an older version of HDL-Dump" - [source](https://israpps.github.io/HDL-Batch-installer/why_hdlbinst_is_better.html) |
 | HDL or HD Loader | OPL | Obsolete with lower compatibility compared to OPL. |
-| HDDRawCopy | HddManager on PS2 | Used to install pre-made disc images. However, these disc images are created from drives that may have differing disk geometry from the one you are using, so it is recommended to instead use uLaunchELF to format and create needed partitions. |

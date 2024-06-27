@@ -82,7 +82,7 @@ Artwork can be loaded directly onto the HDD by mounting the OPL partition with H
 
 !!! warning "Compatibility varies"
 
-    This method is faster and more direct but opening PS2 HDD partitions does not work on all computers. Additionally, even if a hard drive can be mounted, some files may encounter errors with copying and require using the USB thumb drive method.
+    This method is faster and more direct but opening PS2 HDD partitions does not work on all computers. Additionally, even if a hard drive can be mounted, some files may encounter errors with copying and require using the USB storage device method.
 
 ### Requirements
 
@@ -156,7 +156,7 @@ If your PC is unable to mount the OPL partition, artwork can be loaded using a U
 
 ### Requirements
 
-* USB thumb drive formatted to FAT32
+* USB storage device formatted to FAT32
 * FMCB card
 
 ### Instructions
@@ -179,7 +179,7 @@ If your PC is unable to mount the OPL partition, artwork can be loaded using a U
       ![artwork_18](../assets/artwork_18.png){ width="500" }
     </figure>
 
-1. Scroll down and use circle to select `mass:/`, which is the USB thumb drive storage.
+1. Scroll down and use circle to select `mass:/`, which is the USB storage device storage.
 
     <figure markdown="span">
       ![artwork_19](../assets/artwork_19.png){ width="500" }
@@ -227,6 +227,6 @@ You are ready to play game backups complete with game artwork or themes for OPL.
 
 [**Next: Setting up and using OPL**](../OPL-guide/)
 
-This is the end of the main tutorials of the internal HDD guide. However, if you would like to load FreeMcBoot without a memory card, it is possible to load it directly from the hard drive by installing FreeHDBoot instead. This method has a slightly slower boot time but may be preferable if you always want to run the exploit (without the ability to revert to stock) or both memory card slots are needed.
+This is the end of the main tutorials of the internal HDD guide. However, if you would like to load Free McBoot without a memory card, it is possible to load it directly from the hard drive by installing Free HDBoot instead. This method has a slightly slower boot time but may be preferable if you always want to run the exploit (without the ability to revert to stock) or both memory card slots are needed.
 
-[**OPTIONAL guide: Install FreeHDBoot onto hard drive**](../install-freehdboot/) 
+[**OPTIONAL guide: Install Free HDBoot onto hard drive**](../install-freehdboot/) 

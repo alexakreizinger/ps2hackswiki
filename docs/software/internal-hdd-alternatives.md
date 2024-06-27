@@ -1,6 +1,6 @@
 # Internal HDD alternatives
 
-While the main internal HDD guide provides one method of setting up an internal hard drive with OPL, there are alternative, more complex methods that allow for storage options higher than 2TB, drag and drop game install functionality, or avoid the need for a pre-made FMCB card. However, these options have caveats such as undocumented game compatibility or added complexity and will not be covered by this guide. Instead, this page will provide links or summaries for more advanced users to pursue those options.
+While the main internal HDD guide provides one method of setting up an internal hard drive with OPL, there is an alternative method that allow for storage options higher than 2TB and drag and drop OPL game install functionality. However, this option has caveats and will not be covered by this guide. Instead, this page will provide links for more advanced users to pursue or evaluate this option.
 
 ## Grimdoomer OPL fork
 
@@ -17,20 +17,7 @@ While the main internal HDD guide provides one method of setting up an internal 
 
 ### Links
 
-* Video TODO
-* Video TODO
-
-## Creating own FMCB card
-
-### Advantages
-
-* Avoid need for FMCB card
-
-### Caveats
-
-* Still need memory card (and FMCB cards are nearly the same price)
-* Added steps require formatting the hard drive twice
-
-### Links
-
-TODO
+* [Blaine Locklair's YouTube guide](https://www.youtube.com/watch?v=8ZTVR2kycN0)
+* [Macho Nacho Productions's YouTube guide](https://www.youtube.com/watch?v=nKoRvWKojz0)
+* [Grimdoomer's OPL branch PSX-Place thread](https://www.psx-place.com/threads/testers-needed-opl-internal-exfat-2tb-hdd-and-multi-bdm-devices.40018/)
+* [Github page](https://github.com/grimdoomer/Open-PS2-Loader/releases/tag/v1.2.0.1-beta)

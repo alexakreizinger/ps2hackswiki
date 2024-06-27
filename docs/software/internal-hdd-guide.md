@@ -1,18 +1,14 @@
 ## Summary
 
-There are multiple methods of storing and loading game backups on PS2, but an internal hard drive will provide the highest compatibility and best loading times. The goal of this guide is to walk you through the steps of setting up a PS2 with an internal hard drive and pre-made FreeMcBoot memory card so that you can play PS2 game backups using OpenPS2Loader, known as OPL.
-
-!!! note "Software modification"
-
-    Using a FreeMcBoot (FMCB) memory card as an exploit is safe, easy, and requires no permanent modifications. When a PS2 turns on with a FMCB memory card inserted, it will automatically use the exploit and allow running homebrew apps including OPL (which can play game backups) without any further software modification. Removing the memory card before booting will revert it to stock.
+There are multiple methods of storing and loading game backups on PS2, but an internal hard drive will provide the highest compatibility and best loading times. The goal of this guide is to walk you through the steps of setting up a PS2 with an internal hard drive so that you can play PS2 game backups using OpenPS2Loader, known as OPL.
 
 !!! warning "Hardware modification"
 
     While hardware modification is not necessary for this guide, it is recommended for one minor upgrade to allow SATA (which are larger and more modern than IDE) hard drives to be used. This modification is *only* performed on the internet adapter (not the PS2 itself) and is fairly straightforward.
 
-This guide will cover how to format and partition a hard drive with a FreeMcBoot card, install game backups to the drive directly from PC, install a homebrew app (such as OPL if it is not already installed), and download game artwork to display in OPL.
+This guide will cover how to format and partition a hard drive with a Free McBoot card, install game backups to the drive directly from PC, install a homebrew app (such as OPL if it is not already installed), and download game artwork to display in OPL.
 
-Optionally, it is also possible to install the software exploit directly onto the hard drive (albeit with slightly slower boot time) to always boot into it without a memory card if desired. This exploit is called FreeHDBoot and should only be done after formatting the hard drive.
+Optionally, it is also possible to install the software exploit directly onto the hard drive (albeit with slightly slower boot time) to always boot into it without a memory card if desired. This exploit is called Free HDBoot and should only be done after formatting the hard drive.
 
 ## Alternatives
 
@@ -36,13 +32,7 @@ This guide was written with a few key sources and guides either strictly followe
 - If using SATA hard drive:
     - SATA upgrade kit for official Sony PS2 internet adapter
 - Adapter for connecting internal hard drive to PC
-- FreeMcBoot memory card
-    - Can be purchased online, recommended to only buy official cards
 - PC
-
-!!! note "FreeMcBoot card"
-
-    While it is possible to avoid buying or using FreeMcBoot (FMCB) card by flashing a FreeHDBoot image to a hard drive, this is not the recommended way to format or partition a drive. Cards are fairly cheap and easy to find online and will enable proper formatting of the drive on the PS2.
 
 !!! note "SATA vs IDE hard drives"
 
@@ -54,7 +44,7 @@ This guide was written with a few key sources and guides either strictly followe
 
 ### Optional, but recommended
 
-- USB thumb drive formatted to FAT32
+- USB storage device formatted to FAT32
 
 ## Getting Started
 
@@ -62,4 +52,4 @@ If you are planning to use a SATA hard drive, you must first install a SATA conn
 
 Once installed, you can begin the guide.
 
-[**Begin guide: Format and partition hard drive**](../create-drive-partitions/) 
+[**Begin guide: Choose internal HDD compatible exploit**](../internal-hdd-exploits/) 

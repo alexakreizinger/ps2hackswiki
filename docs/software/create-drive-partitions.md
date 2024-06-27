@@ -1,10 +1,6 @@
 # Format and create partitions on hard drive
 
-This guide will cover how to format and partition a hard drive for usage as an internal drive in a PS2. Both of these steps can be done directly on the PS2 using uLaunchELF/wLaunchELF loaded from a FreeMcBoot card.
-
-!!! warning "Flashing pre-made images to hard drive"
-
-    An alternative to using uLaunchELF to format the drive is to flash a pre-made RAW image typically to install FreeHDBoot or packaged programs using HDD Raw Copy Tool. These disc images are created from drives that may have differing disk geometry from the one you are using, so it is recommended to instead use uLaunchELF to format and create needed partitions.
+This guide will cover how to format and partition a hard drive for usage as an internal drive in a PS2. Both of these steps can be done directly on the PS2 using uLaunchELF/wLaunchELF loaded from a Free McBoot card.
 
 !!! warning "Formatting with WinHIIP"
 
@@ -47,7 +43,7 @@ This guide will cover how to format and partition a hard drive for usage as an i
       ![drive_partition_0](../assets/drive_partition_0.png){ width="500" }
     </figure>
 
-1. In this menu, the circle is used to select. Press circle to advance to the `FileBrowser`.
+1. Within uLaunchELF/wLaunchELF, the circle is used to select. Press circle to advance to the `FileBrowser`.
 
     <figure markdown="span">
       ![drive_partition_1](../assets/drive_partition_1.png){ width="500" }

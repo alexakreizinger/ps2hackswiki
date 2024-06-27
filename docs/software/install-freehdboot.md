@@ -1,10 +1,10 @@
-# Install FreeHDBoot to internal hard drive
+# Install Free HDBoot to internal hard drive
 
-Instead of loading FreeMcBoot from a memory card, it is possible to load it directly from the hard drive by installing FreeHDBoot. This guide will walk through installing FreeHDBoot onto your internal hard drive using an existing FMCB card and USB thumb drive.
+Instead of loading Free McBoot from a memory card, it is possible to load it directly from the hard drive by installing **Free Harddisk Drive Boot**, known as **Free HDBoot**. This guide will walk through installing Free HDBoot onto your internal hard drive using an existing FMCB card and USB storage device.
 
-!!! warning "Flashing pre-made images to hard drive"
+!!! warning "Flashing pre-made Free HDBoot images to hard drive"
 
-    An alternative to installing FreeHDBoot using a FreeMcBoot card is to flash a pre-made RAW image using HDD Raw Copy Tool. These disc images are created from drives that may have differing disk geometry from the one you are using, so it is recommended to instead use uLaunchELF to run the FreeHDBoot installer on your PS2 to install it to your hard drive instead.
+    An alternative method of installing Free HDBoot involves directly flashing a pre-made RAW image containing Free HDBoot and sometimes additional packages called a "Noobie Package" using HDD Raw Copy Tool. These disc images are created from drives that may have differing disk geometry from the one you are using, so it is recommended to instead use uLaunchELF to run the Free HDBoot installer on your PS2 to install it to your hard drive instead.
 
 ## Credits
 
@@ -15,13 +15,13 @@ Blaine Locklair
 ## Requirements
 
 * Internal hard drive
-* USB thumb drive formatted to FAT32
+* USB storage device formatted to FAT32
 * FMCB memory card
 
 ## Instructions
 
-1. Download the [FreeMcBoot installer](https://israpps.github.io/FreeMcBoot-Installer/test/8_Downloads.html) by clicking the latest version.
-1. Plug USB thumb drive into PC.
+1. Download the [Free McBoot installer](https://israpps.github.io/FreeMcBoot-Installer/test/8_Downloads.html) by clicking the latest version.
+1. Plug USB storage device into PC.
 1. If the thumb drive is not formatted to FAT32, use **GUIFormat** to format it.
 1. Copy the unzipped installer folder onto the thumb drive.
 
@@ -47,7 +47,7 @@ Blaine Locklair
       ![artwork_18](../assets/artwork_18.png){ width="500" }
     </figure>
 
-1. Scroll down to `mass:/` which represents the USB thumb drive and press circle to select.
+1. Scroll down to `mass:/` which represents the USB storage device and press circle to select.
 
     <figure markdown="span">
       ![artwork_19](../assets/artwork_19.png){ width="500" }
@@ -91,4 +91,4 @@ Blaine Locklair
     <figcaption>Img credit: Blaine Locklair</figcaption>
     </figure>
 
-1. The FreeHDBoot install is finished! The next time the PS2 is booted it does not need the FMCB card inserted.
+1. The Free HDBoot install is finished! The next time the PS2 is booted it does not need the FMCB card inserted.

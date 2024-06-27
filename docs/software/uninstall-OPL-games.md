@@ -9,7 +9,7 @@ Because the Playstation File System installs PS2 games as separate partitions, u
 ## Requirements
 
 * FMCB card
-    * If FreeHDBoot is already installed, ignore FMCB card instructions
+    * If Free HDBoot is already installed, ignore FMCB card instructions
 * Internal hard drive
 
 ## Instructions
